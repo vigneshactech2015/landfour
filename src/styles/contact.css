@@ -1,0 +1,37 @@
+.landfour-contact-maincontainer{
+    background-color: black;
+    color:bisque;
+    display: flex;
+    justify-content: space-around;
+    height:20vh;
+    flex-wrap: wrap;
+}
+
+.landfour-socialMediaContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 1%;
+}
+
+.landfour-importantlinks-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.landfour-socialMediaLogosContainer{
+    display: flex;
+}
+
+.landfour-whoarewe-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    margin-top: 1%;
+}
+
+.landfour-whoarewe-description{
+    margin-top: 1%;
+}
+

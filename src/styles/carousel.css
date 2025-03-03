@@ -1,0 +1,57 @@
+.topcarousel {
+    height: 200px;
+  }
+  
+  .topcarousel .slide-item {
+    padding-top: 30px;
+  }
+  
+  .topcarousel .slider-btn {
+    background-color: transparent;
+  }
+  
+  .sliderBox {
+    width: 95%;
+    background-color: transparent;
+  }
+  
+  .rcs_slideWrap {
+    background-color: transparent;
+  }
+  
+  .rcs_slider {
+    background-color: transparent;
+    height: 50%;
+    width: 100%;
+  }
+  
+  /* Styles for phones ---------------------------------*/
+  @media screen and (max-width: 767px) {
+    .slider-container img {
+      min-width: "70%";
+      min-height: "70%";
+      max-height: 120%;
+      max-width: 120%;
+    }
+  }
+  
+  /* Styles for tablets & smaller screens ---------------------------------*/
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .slider-container img {
+      min-width: "121%";
+      min-height: "121%";
+      max-height: 170%;
+      max-width: 170%;
+    }
+  }
+  
+  /* Styles for desktops and laptops ---------------------------------*/
+  @media screen and (min-width: 992px) {
+    .slider-container img {
+      min-width: "171%";
+      min-height: "171%";
+      max-height: 200%;
+      max-width: 200%;
+    }
+  }
+  

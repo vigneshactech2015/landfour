@@ -1,0 +1,14 @@
+.landfour-about-container{
+    height:90vh;
+    /* background-image: url("https://images.pexels.com/photos/7676662/pexels-photo-7676662.jpeg?auto=compress&cs=tinysrgb&w=800"); */
+    background-size: cover;
+    background-position: center;
+}
+
+.landfour-about-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border:2px solid red;
+}

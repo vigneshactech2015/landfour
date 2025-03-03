@@ -1,0 +1,15 @@
+.landfour-home-container{
+    height:86vh;
+    border:2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landfour-home-bannerImage{
+    border:2px solid green;
+    width:50%;
+    border-radius: 50px;
+    height:50vh;
+    object-fit: contain;
+}
