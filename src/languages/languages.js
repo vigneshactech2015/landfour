@@ -1,6 +1,6 @@
 export const languages = {
     "English" : {
-        "Title":"Land For",
+        "Title":"Land Four",
         "About":"About Us",
         "Contact":"Contact Us",
         "Groups":"Groups",
@@ -17,9 +17,10 @@ export const languages = {
         "WhoWeAre_Description":"Authentic Saudi folk products with international quality under the supervision of Chef Youssef Al-Farhan",
         "About_Us_Motto":"Landfour aims to offer genuine Saudi dishes and desserts, preserving their traditional flavors while using high-quality ingredients. ",
         "OurStory" : "Our story",
-        "StoryOne" : "The story of Areekat Alshef began with Chef Youssef Al-Farhan, who founded Land For as a parent company housing several institutions, including Areekat Alshef",
+        "StoryOne" : "The story of Areekat Alshef began with Chef Youssef Al-Farhan, who founded Land For as a parent company housing several institutions, including Areekat Alshef.",
         "StoryTwo":" Youssef started his journey in the culinary world with a simple passion, spending hours in his mother's kitchen learning the secrets of traditional Saudi cooking. ",
-        "StoryThree":" Over time, this passion turned into a profession, and Youssef became known for his unique skills and innovative approach to reviving traditional flavors."
+        "StoryThree":" Over time, this passion turned into a profession, and Youssef became known for his unique skills and innovative approach to reviving traditional flavors.",
+        "VisitWebsite":"Visit Website"
 
     }
 }

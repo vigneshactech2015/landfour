@@ -1,4 +1,4 @@
-.landfor-contact-maincontainer{
+.landfour-contact-maincontainer{
     background-color: #002423;
     color:bisque;
     display: flex;
@@ -7,37 +7,37 @@
     flex-wrap: wrap;
 }
 
-.landfor-socialMediaContainer{
+.landfour-socialMediaContainer{
     display: flex;
     flex-direction: column;
     justify-content: start;
     margin-top: 1%;
 }
 
-.landfor-importantlinks-container{
+.landfour-importantlinks-container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.landfor-socialMediaLogosContainer{
+.landfour-socialMediaLogosContainer{
     display: flex;
     gap:20px;
     margin-top: 20%;
 }
 
-.landfor-socialMedia-logo-item{
+.landfour-socialMedia-logo-item{
     cursor: pointer;
 }
 
-.landfor-whoarewe-container{
+.landfour-whoarewe-container{
     display: flex;
     flex-direction: column;
     justify-content:start;
     margin-top: 1%;
 }
 
-.landfor-whoarewe-description{
+.landfour-whoarewe-description{
     margin-top: 4%;
 }
 

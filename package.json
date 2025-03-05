@@ -1,5 +1,5 @@
 {
-  "name": "landfor",
+  "name": "landfour",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-on-screen": "^2.1.1",
     "react-responsive-carousel": "^3.2.23",
     "react-router": "^7.2.0",
     "react-router-dom": "^7.2.0",

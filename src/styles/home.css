@@ -1,4 +1,4 @@
-.landfor-home-container{
+.landfour-home-container{
     height:86vh;
     border:2px solid red;
     display: flex;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.landfor-home-bannerImage{
+.landfour-home-bannerImage{
     border:2px solid green;
     width:50%;
     border-radius: 50px;
