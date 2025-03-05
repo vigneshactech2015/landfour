@@ -18,7 +18,7 @@
     cursor: pointer;
 }
 
-.landfour-title{
+.landfor-title{
     position: absolute;
     left:20px;
     width: 100px;
@@ -52,7 +52,6 @@ header:hover{
     cursor: pointer;
 }
 .navlinks li a:hover{
-    /* color: tomato; */
     color:white;
     text-shadow: 1px 1px 5px black;
 }
@@ -92,6 +91,7 @@ button:hover{
     width: 100%;
     margin: 25px;
     text-shadow: 1px 1px 2px black;
+    color:black;
 }
 .sidebar img{
     position: absolute;
@@ -102,7 +102,7 @@ button:hover{
 nav ion-icon{
     font-size: 2em;
     position: absolute;
-    top: 35px;
+    top: 16px;
     right: 20px;
 }
 h2{ 
@@ -122,4 +122,8 @@ h2{
     .navlinks .items{
         display: none;
     }
+}
+
+.sidebar-items{
+    color:black;
 }

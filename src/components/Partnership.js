@@ -1,11 +1,9 @@
-import ResponsiveHeader from "./ResponsiveHeader"
 
 const Partnership = () => {
     return(
-        <>
-        <ResponsiveHeader/>
+        <div id="partnership">
         Partnership Section
-        </>
+        </div>
     )
 }
 

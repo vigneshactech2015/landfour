@@ -1,14 +1,76 @@
-.landfour-about-container{
-    height:90vh;
-    /* background-image: url("https://images.pexels.com/photos/7676662/pexels-photo-7676662.jpeg?auto=compress&cs=tinysrgb&w=800"); */
+.landfor-about-container{
+    height:100vh;
+    background-image: url("../assets/images/lightBackground.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.landfour-about-content{
+.landfor-about-title{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landfor-aboutus-logo{
+    object-fit: contain;
+    width:20%;
+    height:auto;
+}
+
+.about-description{
+    font-weight: 500;
+    border:2px solid blue;
+    margin-top: 2%;
+    font-family: italic;
+}
+
+.landfor-about-subcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    border:2px solid red;
     justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+    margin:5% 10%;
+}
+
+
+.story-description{
+    border:2px solid green;
+    margin-top:5%;
+    max-width: 700px;
+}
+
+
+.landfor-about-storycontainer{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    margin:5% 10%;
+    justify-content: space-around;
     border:2px solid red;
+}
+
+.story-title{
+    margin-left: 10%;
+}
+
+.story-description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+@media (max-width:600px){
+    .landfor-about-storycontainer{
+        flex-direction: column;
+    }
+    .story-description{
+        max-width:350px;
+    }
+    .landfor-aboutus-logo{
+        all:unset;
+        width:50%;
+        object-fit: contain;
+        }
 }

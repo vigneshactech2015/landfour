@@ -1,16 +1,16 @@
-import { languages } from "../languages/languages";
 import ResponsiveHeader from "./ResponsiveHeader";
 import '../styles/home.css';
-import logo from '../assets/images/logo.jpeg';
 import Group from "./Group";
 import About from "./About";
 import Contacts from "./Contacts";
+import Menu from "./Menu";
 
 const Home = () => {
     return(<div id="home">
         <ResponsiveHeader/>
+        <Menu/>
         <About/>
-        <Group showHeader={false}/>
+        <Group/>
         <Contacts/>
     </div>)
 }

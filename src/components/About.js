@@ -1,15 +1,35 @@
-import ResponsiveHeader from "./ResponsiveHeader";
 import '../styles/about.css';
+import logo from '../assets/images/logo.jpeg';
+import chef from '../assets/images/chef.jpg';
+import { languages } from '../languages/languages';
 
-const About = ({showHeader=false}) => {
+const About = () => {
     return(
-        <div id="about" className="landfour-about-container">
-        {showHeader && <ResponsiveHeader/>}
-        <div className="landfour-about-content">
-            <h3>We are Land four</h3>
-            <p>Authentic Saudi folk products with international quality under the supervision of Chef Youssef Al-Farhan</p>
-            {/* <img src={} />  */}
+        <div id="about" className="landfor-about-container">
+            <br/><br/>
+        <h3 className="story-title">{languages.English.About}</h3>
+
+            <div className="landfor-about-subcontainer">
+                <img src={logo} alt="logo" className="landfor-aboutus-logo"/>
+                <div >
+            <p className="about-description"> 
+            {languages.English.About_Us_Motto}
+            </p>
         </div>
+            </div>
+       
+            <h3 className="story-title">{languages.English.OurStory}</h3>
+
+
+            <div className="landfor-about-storycontainer">
+                <div className="story-description-container">
+            <p className='story-description'>{languages.English.StoryTwo}</p>
+       <p className='story-description'>{languages.English.StoryThree}</p>
+       </div>
+        <div>
+        <img src={chef} alt="logo" className="landfor-chef-logo"/>
+        </div>
+            </div>
         </div>
     )
 }

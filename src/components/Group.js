@@ -1,21 +1,17 @@
 import { Carousel } from "react-responsive-carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import ResponsiveHeader from "./ResponsiveHeader";
 import '../styles/group.css';
 import qeshd from '../assets/images/qeshd.jpg';
 import { Link, redirect } from "react-router-dom";
-import logo from '../assets/images/logo.jpeg';
-import { languages } from "../languages/languages";
 
-const Group = ({showHeader=false}) => {
+const Group = () => {
 
     const onRedirect = (path) => {
       window.open(path,"_blank")
     }
 
     return(
-        <>
-        {showHeader && <ResponsiveHeader/>}
+        <div id="groups">
         <Carousel 
         className="carousel"
         autoPlay ={true}
@@ -33,6 +29,7 @@ const Group = ({showHeader=false}) => {
                 <img
                   src={qeshd}
                   alt="loading"
+                  
                 />
               </div>
 
@@ -51,7 +48,7 @@ const Group = ({showHeader=false}) => {
               </div>
             </Link>
             </Carousel>
-        </>
+        </div>
     )
 }
 
