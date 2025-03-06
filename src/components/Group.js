@@ -6,7 +6,7 @@ const Group = ({language}) => {
 
     return(
         <div id="groups">
-          <br/><br/>
+          {/* <br/><br/> */}
           <h3 className="group-title">{languages[language].Our_Groups}</h3>
 
           <br/><br/>
