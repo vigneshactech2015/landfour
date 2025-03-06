@@ -9,7 +9,7 @@ import Areekah from '../assets/images/Areekah.jpg';
 
 const Banner = ({language}) => {
     return (
-        <div id="menu" className='banner'>
+        <div id="menu" className='banner' key={language}>
           <Carousel 
         className="carousel"
         autoPlay ={true}
@@ -28,6 +28,7 @@ const Banner = ({language}) => {
                 ].map((item,index)=>{
                 return (<Link
               style={{ textDecoration: "none", color: "white" }}
+              key={index}
             >
               <div key={index}>
                 <img

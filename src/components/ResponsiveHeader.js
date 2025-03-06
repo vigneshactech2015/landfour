@@ -41,8 +41,14 @@ const ResponsiveHeader = ({language,setLanguage}) => {
             </ul>
             <ul className="sidebar">
                 <li onClick={closeSidebar}><a className='sidebar-items' href="#"><ion-icon name="close-outline"></ion-icon></a></li>
-                <li><a className='sidebar-items' onClick={()=>onNavigate("about")}>{languages[language].About}</a></li>
-                <li><a className='sidebar-items' onClick={()=>onNavigate("groups")}>{languages[language].Groups}</a></li>
+                <li><a className='sidebar-items' onClick={()=>{onNavigate("about")
+                closeSidebar()
+                }
+                }>{languages[language].About}</a></li>
+                <li><a className='sidebar-items' onClick={()=>{
+                    onNavigate("groups")
+                    closeSidebar()
+                    }}>{languages[language].Groups}</a></li>
                 <img src={logo} alt="" />
             </ul>
         </nav>

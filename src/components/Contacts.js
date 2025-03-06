@@ -2,6 +2,14 @@ import '../styles/contact.css';
 import { languages } from "../languages/languages";
 
 const Contacts = ({language}) => {
+
+    const onNavigate = (path) => {
+        const element = document.getElementById(path);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    }
+
     return(
         <>
         <div className="landfour-contact-maincontainer" id="contact">
@@ -16,13 +24,13 @@ const Contacts = ({language}) => {
 
             <div className="landfour-importantlinks-container">
             <h4>{languages[language].Important_links}</h4>
-            <h5>{languages[language].Privacy_Policy}</h5>
-            <h5>{languages[language].Terms_Conditions}</h5>
+            <h6 style={{cursor:"pointer"}} onClick={()=>onNavigate("groups")}>{languages[language].Groups}</h6>
+            <h6 style={{cursor:"pointer"}} onClick={()=>onNavigate("about")}>{languages[language].About}</h6>
             </div>
 
             <div className="landfour-whoarewe-container">
                <h4 className="landfour-whoarewe-title">{languages[language].WhoWeAre}</h4>
-               <p className="landfour-whoarewe-description">{languages[language].WhoWeAre_Description}</p>
+               <h6 className="landfour-whoarewe-description">{languages[language].WhoWeAre_Description}</h6>
             </div>
         </div>
         <div>

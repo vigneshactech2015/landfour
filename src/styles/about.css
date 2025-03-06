@@ -67,5 +67,15 @@
         all:unset;
         width:50%;
         object-fit: contain;
-        }
+    }
+    .landfour-about-container{
+        height:120vh;
+    }
+    .about-description{
+        margin-top: 15%;
+    }
+
+    .landfour-chef-logo{
+        margin-top: 20%;
+    }
 }
