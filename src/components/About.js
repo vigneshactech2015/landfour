@@ -5,14 +5,14 @@ import { languages } from '../languages/languages';
 import TrackVisibility from 'react-on-screen';
 import {useState,useEffect} from 'react';
 
-const About = () => {
+const About = ({language}) => {
 
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(100 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["Reviving Saudi Heritage", "Quality and Authentic Taste","Promoting Saudi Culinary Culture","Offering Traditional Saudi Desserts"];
+    const toRotate = language === "English" ? ["Reviving Saudi Heritage", "Quality and Authentic Taste","Promoting Saudi Culinary Culture","Offering Traditional Saudi Desserts"] : ["إحياء التراث السعودي","الجودة والطعم الأصيل","تعزيز ثقافة الطهي السعودي","تقديم الحلويات السعودية التقليدية"];
     const period = 1000;
   
     useEffect(() => {
@@ -51,17 +51,17 @@ const About = () => {
     return(
         <div id="about" className="landfour-about-container">
             <br/><br/>
-        <h3 style={{textDecoration:"underline"}} className="story-title">{languages.English.About}</h3>
+        <h3 style={{textDecoration:"underline"}} className="story-title">{languages[language].About}</h3>
 
             <div className="landfour-about-subcontainer">
-                <img src={logo} alt="logo" className="landfour-aboutus-logo"/>
+                <img src={logo} alt="logo" loading="lazy" className="landfour-aboutus-logo"/>
                 <div>
            <br/>
             <div>
                 <TrackVisibility>
               {({ isVisible }) =>
               <div>
-               <h3 style={{textAlign:"center",color:"#002423"}} className="txt-rotate" dataPeriod="1000" data-rotate='[ "Reviving Saudi Heritage", "Quality and Authentic Taste","Promoting Saudi Culinary Culture","Offering Traditional Saudi Desserts"]'>
+               <h3 style={{textAlign:"center",color:"#350214"}} className="txt-rotate" dataPeriod="1000" data-rotate= {language === "English" ? '[ "Reviving Saudi Heritage", "Quality and Authentic Taste","Promoting Saudi Culinary Culture","Offering Traditional Saudi Desserts"]' : '["إحياء التراث السعودي","الجودة والطعم الأصيل","تعزيز ثقافة الطهي السعودي","تقديم الحلويات السعودية التقليدية"]'}>
                 <span className="wrap">{text}</span>
                 </h3>
               </div>}
@@ -69,22 +69,22 @@ const About = () => {
             </div>
 
             <p className="about-description"> 
-            {languages.English.About_Us_Motto}
+            {languages[language].About_Us_Motto}
             </p>
 
         </div>
             </div>
        
-            <h3 style={{textDecoration:"underline"}} className="story-title">{languages.English.OurStory}</h3>
+            <h3 style={{textDecoration:"underline"}} className="story-title">{languages[language].OurStory}</h3>
 
 
             <div className="landfour-about-storycontainer">
                 <div className="story-description-container">
-            <p className='story-description'>{languages.English.StoryTwo}</p>
-       <p className='story-description'>{languages.English.StoryThree}</p>
+            <p className='story-description'>{languages[language].StoryTwo}</p>
+       <p className='story-description'>{languages[language].StoryThree}</p>
        </div>
         <div>
-        <img src={chef} alt="logo" className="landfour-chef-logo"/>
+        <img src={chef} alt="logo" loading="lazy" className="landfour-chef-logo"/>
         </div>
             </div>
         </div>

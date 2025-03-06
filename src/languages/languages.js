@@ -22,5 +22,28 @@ export const languages = {
         "StoryThree":" Over time, this passion turned into a profession, and Youssef became known for his unique skills and innovative approach to reviving traditional flavors.",
         "VisitWebsite":"Visit Website"
 
+    },
+    "Arabic":{
+        "Title":"أرض أربعة",
+        "About":"معلومات عنا",
+        "Contact":"اتصل بنا",
+        "Groups":"المجموعات",
+        "Menu":"قائمة طعام",
+        "Partnership":"الشراكات",
+        "Our_Groups":"مجموعاتنا",
+        "Social_Media":"وسائل التواصل الاجتماعي",
+        "Address":"عنوان",
+        "Address_Detail":"الربض حي السويداء وحي العزيزية",
+        "Important_links":"روابط مهمة",
+        "Privacy_Policy":"سياسة الخصوصية",
+        "Terms_Conditions":"الشروط والأحكام",
+        "WhoWeAre":"من نحن",
+        "WhoWeAre_Description":"منتجات شعبية سعودية أصيلة بجودة عالمية تحت إشراف الشيف يوسف الفرحان",
+        "About_Us_Motto":"تهدف لاندفور إلى تقديم الأطباق والحلويات السعودية الأصيلة، مع الحفاظ على نكهاتها التقليدية مع استخدام مكونات عالية الجودة.",
+        "OurStory" : "قصتنا",
+        "StoryOne" : "بدأت قصة عريكة الشيف مع الشيف يوسف الفرحان الذي أسس شركة Land Four كشركة أم تضم عدة مؤسسات من بينها عريكة الشيف.",
+        "StoryTwo":"بدأ يوسف رحلته في عالم الطهي بشغف بسيط، حيث أمضى ساعات في مطبخ والدته ليتعلم أسرار الطبخ السعودي التقليدي.",
+        "StoryThree":"وبمرور الوقت، تحول هذا الشغف إلى مهنة، وأصبح يوسف معروفًا بمهاراته الفريدة ونهجه المبتكر في إحياء النكهات التقليدية.",
+        "VisitWebsite":"زيارة الموقع"
     }
 }

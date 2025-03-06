@@ -41,3 +41,14 @@
     margin-top: 4%;
 }
 
+@media(max-width:1000px){
+    .landfour-whoarewe-title{
+        text-align: center;
+    }
+
+    .landfour-whoarewe-description{
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
