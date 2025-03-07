@@ -6,7 +6,6 @@ const Group = ({language}) => {
 
     return(
         <div id="groups">
-          {/* <br/><br/> */}
           <h3 className="group-title">{languages[language].Our_Groups}</h3>
 
           <br/><br/>
@@ -18,9 +17,9 @@ const Group = ({language}) => {
               title: language === "English" ? "Areekat Alshef" : "عريقات الشيف",description: language === "English" ?  "Areekat Alshef is a traditional Saudi restaurant and a specialty store dedicated to reviving authentic Saudi heritage products." : "عريكة الشيف هو مطعم سعودي تقليدي ومتجر متخصص مخصص لإحياء المنتجات التراثية السعودية الأصيلة."
             }].map((item,index)=>{
             return(
-              <div key={index} className="group-subContainer">
-                <h4 className="groupitem-title">{item.title}</h4>
-                <p className="groupitem-description">{item.description}</p>
+              <div key={index} className={`group-subContainer${index}`}>
+                <h4 className="groupitem-title" style={{color: index == 1 ? "black" : ""}}>{item.title}</h4>
+                <p className="groupitem-description" style={{color: index == 1 ? "black" : ""}}>{item.description}</p>
                { item.websitelink && <button className="groupitem-button" onClick={()=>window.open(item.websitelink,"_blank")}>{languages[language].VisitWebsite}</button> }
                 </div>
             )
