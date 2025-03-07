@@ -52,3 +52,10 @@
     }
 }
 
+@media(max-width:1000px) and (orientation:landscape){
+    .landfour-contact-maincontainer{
+        margin-top: 50%;
+        height: 25vh;
+    }
+}
+

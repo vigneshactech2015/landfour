@@ -27,6 +27,13 @@
     }
 }
 
+
+@media(max-width:1000px) and (orientation:landscape){
+   #groups{
+    margin-top: 30%;
+   }
+}
+
 .group-subContainer{
     width:380px;
     height:300px;
